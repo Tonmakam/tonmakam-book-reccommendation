@@ -1,0 +1,143 @@
+.fullscreen-image {
+  width: 100vw;
+  /* ความกว้างเต็มหน้าจอ */
+  height: 100vh;
+  /* ความสูงเต็มหน้าจอ */
+  object-fit: cover;
+  /* ปรับภาพให้ครอบคลุมพื้นที่โดยไม่เสียอัตราส่วน */
+  display: block;
+  /* ป้องกันช่องว่างจาก inline element */
+}
+
+p,
+h4 {
+  text-indent: 30px;
+  /* ย่อหน้าด้วยระยะ 30 พิกเซล */
+}
+
+.The-Tonmakam {
+  font-family: 'Mitr', sans-serif;
+  font-weight: 500;
+  color: #e84e40;
+  /* สีแดง */
+}
+
+p {
+  font-family: 'K2D', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  /* ขนาดมาตรฐานที่อ่านง่าย */
+  line-height: 1.6;
+  /* เพิ่มระยะห่างระหว่างบรรทัดให้อ่านง่าย */
+}
+
+.red-box {
+  background-color: #e84e40;
+}
+
+a {
+  font-family: 'Mitr', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-decoration: none;
+  /* ถ้าไม่ต้องการขีดเส้นใต้ลิงก์ */
+}
+
+h2,
+h3,
+h4 {
+  font-family: 'Mitr', sans-serif;
+  font-weight: 400;
+  color: #e84e40;
+}
+
+hr {
+  border: none;
+  border-top: 4px solid #e84e40;
+  /* สร้างเส้นด้านบน สีแดง และหนา */
+}
+
+.circle-image {
+  width: 150px;
+  /* ปรับขนาดให้เล็กลง */
+  height: 150px;
+  /* กำหนดความสูงเท่ากับความกว้าง */
+  border-radius: 50%;
+  /* ทำให้เป็นวงกลม */
+  object-fit: cover;
+  /* ครอบภาพให้พอดีในกรอบวงกลม */
+  border: 2px solid #ccc;
+  /* เส้นขอบบางๆ เพิ่มความสวยงาม */
+}
+
+.shrikhand-regular {
+  font-family: 'Shrikhand', cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #e84e40
+}
+
+/* .header-pink {
+    background-color: #FDE9EA;
+  } */
+
+.header-section {
+  margin: 0;
+  padding: 0;
+}
+
+
+.the-logo {
+  width: 150px;
+  /* ปรับขนาดให้เล็กลง */
+  height: 150px;
+  /* กำหนดความสูงเท่ากับความกว้าง */
+}
+
+.text-right-bold {
+    text-align: right;   /* ชิดขวา */
+    font-weight: bold;   /* ตัวหนา */
+  }
+
+  .red-line-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+ .vertical-red-line {
+    width: 8px;                  /* ความหนาของเส้น */
+    height: 100px;               /* ความสูงของเส้น */
+    background-color: #e84e40;   /* สีแดงตามภาพ */
+    display: inline-block;       
+    vertical-align: middle;    
+    margin-right: 16px;          /* เว้นระยะห่างจากข้อความ */  
+  }
+
+
+  .page-title {
+  font-size: 3rem;       /* ขนาดประมาณหัวข้อหลักทั่วไป */
+  font-weight: 500;        /* หนาเพื่อความโดดเด่น */
+  line-height: 1.2;        /* ระยะห่างระหว่างบรรทัด */
+  margin-bottom: 1rem;     /* เว้นระยะด้านล่าง */
+}
+
+
+.icon-shift-left {
+  position: relative;
+  left: -50px; /* ขยับไปทางซ้ายเล็กน้อย */
+}
+
+.red-text {
+   color: #e84e40
+}
+
+.arrow-to-top {
+  position: fixed;        /* ติดอยู่กับหน้าจอ */
+  bottom: 20px;           /* ห่างจากด้านล่าง */
+  right: 20px;            /* ชิดด้านขวา */
+  width: 40px;            /* ขนาดกว้างของรูปภาพ */
+  height: 40px;           /* ขนาดสูงของรูปภาพ */
+  cursor: pointer;        /* เปลี่ยนเป็นรูปมือเมื่อ hover */
+  z-index: 1000;          /* อยู่เหนือองค์ประกอบอื่น */
+}
